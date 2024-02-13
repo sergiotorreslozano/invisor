@@ -56,4 +56,3 @@ public class AskController {
 
 }
 
-record Answer(String answer){}
