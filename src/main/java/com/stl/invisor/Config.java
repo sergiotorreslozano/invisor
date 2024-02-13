@@ -42,6 +42,15 @@ public class Config {
     @Value("${app.documentResourceEstimates}")
     private Resource resourceEstimates;
 
+    @Value("${app.documentResourceFinancials}")
+    private Resource resourceFinancials;
+
+    @Value("${app.documentResourceOverview}")
+    private Resource resourceOverivew;
+
+    @Value("${app.documentResourcePrices}")
+    private Resource resourcePrices;
+
     @Bean
     public EmbeddingClient embeddingClient(){
         return  new OpenAiEmbeddingClient(new OpenAiApi(OPENAI_API_KEY),
@@ -62,6 +71,9 @@ public class Config {
 
             simpleVectorStore.add(generateSplitDocuments(resource));
             simpleVectorStore.add(generateSplitDocuments(resourceEstimates));
+            simpleVectorStore.add(generateSplitDocuments(resourceFinancials));
+            simpleVectorStore.add(generateSplitDocuments(resourceOverivew));
+            simpleVectorStore.add(generateSplitDocuments(resourcePrices));
             simpleVectorStore.save(vectorStoreFile);
         }
         return simpleVectorStore;
