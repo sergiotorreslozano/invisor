@@ -1,0 +1,207 @@
+Teleperformance SE, H1 2023 Earnings Call, Jul 26, 2023
+26/07/23
+Operator
+
+Good day, and welcome to Teleperformance 2023 First Half Results Conference Call. Today's call is being recorded.
+
+At this time, I'll now turn the call over to Bhupender Singh, Deputy CEO of Teleperformance. Please go ahead, sir.
+
+Bhupender Singh
+
+Thank you, and hello, everyone, and once again, welcome to the 2023 first half results. And if you're wondering why Olivier is not here, then unfortunately, he tested positive for COVID today. And so I'll try my best to cover for him.
+
+So let's start with the first half highlights. Despite a challenging macro environment, we've had a resilient performance in the first half of this year. The like-for-like revenues, excluding the COVID contracts, we've had 7% growth rate this year.
+
+The EBITDA margins have gone up by 30 basis points to 20.4%. The EBITA margin has gone up by 30 basis points again to 14.6%. And the key drivers of this resilient performance in H1, one, we have a diversified client portfolio, and I'll touch upon it in a bit.
+
+Second, we have had good growth rates in Europe. At the same time, we have had slowdown in the U.S. market. There has been a strong demand for offshore services, which has had good margin impact, though on the top line, it has been deflationary. And Specialized Services continue to expand at a good pace. On the downside, we have seen continued delays in contract signings, especially in the U.S.
+
+Coming to some of the nonfinancial highlights. Last month, we announced that we've got Great Place to Work recognition in 72 countries, which is an increase of 8 countries versus last year and now covers 99% of the group's employees.
+
+In the last quarter, we've also signed 3 new agreements with local unions in Colombia, in Romania and in Poland. You'll be very pleased to know that the Colombia government has now officially closed its investigation that was initiated in November, without a single adverse finding against Teleperformance. And we have further strengthened our Board of Directors with the cooptation of Mr. Kevin Niu, who is an AI entrepreneur and is a PhD from Harvard.
+
+Now let's look at some of the numbers in more detail. So we had revenues in the first half of EUR 3.96 billion, which on a reported basis represents a growth rate of 0.4% and on a like-for-like basis, a growth rate of 2.2%. But more importantly, excluding the impact of the COVID support lines that we had for governments in Europe, namely Netherlands, U.K., France and Germany, it's a 7% growth rate.
+
+EBITDA is now up to EUR 807 million in the first half, which is an improvement of 30 basis points. EBITA at EUR 577 million, at 14.6% and that translates into a net profit of EUR 271 million, which is relatively flat versus last year because of increased interest expenses, and I'll touch upon that again a bit later.
+
+This is the revenue bridge between H1 of 2022 and this year. So we had highly unfavorable currency effect. Especially in Q2, we had EUR 108 million impact in H1; 96% of that impact was in Q2 because of increased volatility and declines in Colombian peso, Egyptian pound, Argentina peso, Indian rupees and the hyperinflation in Turkey. Then we had the EUR 184 million of the discontinued COVID contracts. And these declines were negated by a net organic growth rate of 7% to the tune of EUR 268 million in the first half. And then we had EUR 38 million coming from the PSG acquisition.
+
+As I touched upon earlier, one of the primary drivers that we have been able to handle the current macroeconomic challenges is because of our diversified portfolio. As you can see, we are not overly exposed to any particular industry, sector or vertical.
+
+Health care, financial services and media entertainment are our biggest verticals, but even the biggest vertical, we have only 16% of our overall revenues coming from that.
+
+Now let's look at the revenue by business unit and by geographies. So I'll focus on the growth rates -- like-for-like growth rates in H1. So Core Services, we've had overall 5.3% growth rate, excluding the COVID contracts. Within that, if you look at North America and APAC, we've had 0.3% growth rate only. That has been somewhat laggard this year and that's driven by two things. One, we've seen decline in volumes in some of the traditional high-volume generation sectors in the U.S., mainly telecom, technology and the retail sector. And number two -- and that's mainly driven by consumer sentiment. And number two, we have seen an increased trend for offshoring, which has reduced the revenues, though the margin impact is positive.
+
+Lat Am has come at 4.3% growth rate in the first half, and it's a mixed story. We have seen good growth momentum in Colombia and Peru, but we have seen declines in Mexico with a strong peso. EMEA has been very strong, 10.8% growth rate on a like-for-like basis, excluding COVID contracts. And this is driven by good growth rate in the multilingual hubs and in the German market.
+
+Specialized Services continues to have very good growth momentum, 17.2% in the first half and this is driven by brisk growth rate in LanguageLine Solutions and the continued rebound in recovery in TLS post COVID. Also, I do want to remind everyone that we all are coming from a very high base in Q2 of 2023. And some of this base effect will start weaning off in the subsequent quarters.
+
+If you look at the EBITA margins by business unit and geography, overall, as I mentioned earlier, it's a 30 basis point improvement from 14.3% to 14.6%.
+
+In the Core Services and D.I.B.S., we have maintained the EBITA margin despite losing the significant gross margin from the discontinued COVID contracts. Within that, in North America and APAC, we have seen a 60 basis points improvement driven by increased offshoring. Lat Am, the improvements in Colombia and Peru have been somewhat negated by reduction in Mexico. And EMEA, the reduction is largely because of the COVID contracts. Excluding COVID contracts, actually, EMEA has shown an improvement in operating margin.
+
+And Specialized Services, we have seen some reduction in the margin because of tighter labor market for the Specialized Services staff. But overall, it continues to be very healthy, 28.3% EBITA margins. So overall, still very healthy, 14.6% and a 30 basis points improvement.
+
+So what does it mean in terms of operating profits? So the EBITA margin of 14.6% or EUR 577 million in the first half. After amortization and accounting for the nonrecurring items, it translates into an operating profit of EUR 446 million, which is a 1.8% improvement versus the previous H1 of 2022. And this EUR 446 million of operating profit translates to a net profit of EUR 271 million, which is largely flat versus last year.
+
+Two big items there. One, the interest costs have increased by EUR 18 million this year because of higher net debt for the acquisition of PSG and also the interest rates for the variable component are higher.
+
+Income tax, both at an absolute level and also as an effective tax rate level are lower than last year through better tax management.
+
+Cash flow. We had a net free cash flow of EUR 309 million this year despite the higher income -- higher interest payments, largely because of better discipline on CapEx. We expect go-forward CapEx also in the circa 3% of revenue range.
+
+So what's the financial position in terms of net debt end of this half on 30th June 2023? It's EUR 2.63 billion. We had net free cash flow of EUR 309 million that we just discussed and the outflow was largely for dividend and share buyback. With this, we maintain a fairly strong financial structure and which is largely protected against any increases in interest rates, if any. And we maintain our credit rating of BBB with S&P. The average cost of debt is 2.8% and average maturity of gross debt is 3.1 years.
+
+Coming to 2023 outlook. So we expect the macroeconomic environment to continue to be challenging and it's driven by three factors.
+
+One, we're seeing increased uncertainty. Almost every few weeks, we are seeing a different commentary, whether it will be a recession, a hard landing, a soft landing or no recession at all. And that does have a bearing on the psyche and the decision-making of our clients. So we are seeing slowing decision-making, especially in the U.S. Number two, we have seen fewer launches of new products and services, and that has impacted the volumes. And number three, with the increased efficiency drive, we're also seeing increased offshoring. So we expect headwinds in terms of top line. And accounting for those realities, we have adjusted our revenue growth rate -- like-for-like revenue growth rate, excluding the COVID contracts, to between 6% and 8%. At the same time, we are confirming our EBITA margin target of 16%, which is a 50 basis points improvement versus last year. And finally, the Majorel acquisition continues to be on track, and we hope to close the acquisition in Q4 of this year.
+
+Thank you. And now I'm ready for any questions.
+
+Operator
+
+[Operator Instructions] We will take our first question from Simon LeChipre from Stifel.
+
+Simon LeChipre
+
+Yes. Three on my side, please. First of all, you named a few changes. So basically delay in client decision-making process, lower volumes, offshoring. Could you perhaps quantify the drag coming from each of this factor on the top line?
+
+Secondly, looking at your outlook. So basically, the midpoint of your guidance implies a 7% like-for-like growth in H2, so an acceleration compared to Q2. What is your level of confidence on achieving such a pace of growth, knowing you capture your guidance for the second time this year?
+
+And lastly, could you update us on your mix between onshore and offshore? And where do you think it could go over, let's say, the next 2 years?
+
+Bhupender Singh
+
+Yes, Simon. So I'll take the middle question because, frankly, I don't have the data for the first and the third one, which is the details of quantification of the three factors.
+
+On the confidence level on the 6% to 8% guidance, this is a difficult year to forecast. We have seen that. We started the year well, then we saw a slowdown in decision-making, then actually it started back again. Then we saw another pause. So frankly, we have seen too many stop starts this year to be able to be fully confident about what's going to happen in H2.
+
+From what we are seeing, given that a lot of new business from new logos is largely decided, so we don't expect any major changes there. But at the same time, we do get and as you've seen historically also, Q3 and Q4 are big quarters for us and these are driven by big volumes.
+
+And if for some reasons, those volumes don't materialize, then there may be some impact. Sitting here, we think that we should be able to do the new guidance that we have done, but I just don't want to sound totally confident because this has been a very difficult year to forecast.
+
+Simon LeChipre
+
+Okay. And just on my first question, and I mean, I appreciate it's hard to quantify precisely the drag from the different factors, but perhaps if you could just tell us what is the most important, let's say, drag among the three?
+
+Bhupender Singh
+
+The biggest thing that we have seen is we have seen substantial volume declines from the traditional big volume players. There's a digital commerce, which is coming off a pandemic high. And then also telcos and others because they're not launching that many new products and services and the consumer sentiment is down, we are seeing some volume declines with them. So that, to some extent, is a large component. And where there's not a volume decline, the remaining volume, they want it to be serviced from the most efficient places.
+
+So that's why you're seeing an improvement and increased growth rate in the likes of Colombia, India, Philippines and which has a positive impact on margins, but a negative impact on the growth rate. I do want to highlight that, that even 7% in H1 and 6% to 8% overall for the year, in this environment is one of the best in the industry. If you look at either our direct competitors in the CX space or some of the indirect competitors, this is one of the best growth rate. So I hope that's not lost on people.
+
+Operator
+
+We will take our next question from Karl Green from RBC.
+
+Karl Green
+
+Bhupender, I've got three questions, if I can. Firstly, just in terms of the LLS margin, I think you've said in the statement that there's an expectation that, that situation will improve going forward. Could you just explain why you think the margin can improve in terms of what you're presumably doing around pricing and efficiencies? That's the first question.
+
+The second question, just in terms of the D.I.B.S. business. I know you don't tend to break it out, but just trying to understand and contextualize this revenue softness. Is it the D.I.B.S. business specifically that's seen greater uncertainty around decision-making? Or is it the kind of core traditional, the outsourcing decision, which is slowing up?
+
+And then the final question, just in terms of that really quite sharp slowdown in Latin America when we look at the year-on-year growth trending over the last 3 or 4 quarters. I mean how much longer do we think that, that could continue for? I mean is it likely given the strength of the Mexican peso that, that business could -- the trajectory could continue and that perhaps Latin America organic growth could go negative for that reason alone? I'll leave that and there's a bunch of other questions as well, but I think it's -- three is enough for now.
+
+Bhupender Singh
+
+Yes. So LanguageLine Solutions margin, firstly, it continues to be very, very healthy. So it's not that we are overly concerned about it. Yes, there is a drop, and the drop is on account of two factors. One, we have seen that the wage pressures for more specialized resources is higher. So some of that has flown into the margins. And number two, because we are seeing a strong demand, we have also somewhat overhired. And so obviously, once the staffing levels come to more normal, that effect will go away. So we do expect it to improve going forward.
+
+D.I.B.S. and core, we don't separate that out. It's actually now almost every business. And as I mentioned earlier, 70% of our of our top 200 clients have some kind of a transformation component involved. So we don't separate that out, this thing.
+
+The U.S. market, it's more driven by -- it's actually some of the offshore markets are growing much faster. The U.S. is the overall impact of the macroeconomic challenges and not related to D.I.B.S. versus core. And Latin America -- peso, look, this is -- I'm not an expert on foreign exchange. What we are seeing is there's a good demand for a number of Latin American markets. And it's not only one. There are multiple markets. There is Mexico, there is Colombia, there's Peru, there's El Salvador, there's Dominican Republic. So yes, there may be a currency effect in one place. And because of that, the attractiveness of that geography comes down, but that's the benefit of being TP because we have got multiple other options that can deliver value to the client.
+
+Karl Green
+
+I'm just following up on that last point. I mean just assuming that the Mexican peso doesn't change from where it's today, do you think there's a like -- do you think there's further declines to come in that region, which is going to drag down both like-for-like growth and the margin just based on current spot rates and the annualization of that?
+
+Bhupender Singh
+
+Yes. So again, Karl, we look at Latin America as a bigger sourcing destination and not necessarily only Mexico. So can Mexico go down further? We don't know. But do we expect Latin America as a destination for American clients to improve? Absolutely, yes. So as I said earlier, it may be that the demand for Mexico because of such a rapid increase in the strengthening of peso versus dollar, some of the competitor advantage has gone away. But the competitive advantage of other geographies, whether it's El Salvador or Colombia, remains very strong. So we may see some shift that side. But overall, we expect Latin America to grow, which is growing, as you can see in our presentation also.
+
+Operator
+
+We will take our next question from Anvesh Agrawal from Morgan Stanley.
+
+Anvesh Agrawal
+
+Bhupender, two questions from me really. First, just on the free cash flow, and I appreciate you probably -- if we don't have too much of detail. But the 3% sort of CapEx guidance, is that more permanent now? Or it's just for this year? And it seems odd at a time when probably the investment of digital kind of need to go up. So just wondering how you're thinking about the investments within the business?
+
+And then just related to that, despite sort of lower CapEx, the free cash flow is actually down year-on-year. So wondering how you're thinking about that for the full year. So that's on the free cash and CapEx. And the second is just to clarify. On content moderation, now sort of -- you're sort of doing the full service. Is that part of the business still growing 20%, 30%? Just trying to work out what is the growth sort of ex content moderation in the businesses.
+
+Bhupender Singh
+
+Yes. So the 3% on CapEx, yes, we expect it to be circa that level going forward also. That's not only for this year, it could be 2.9%, it could be 3.1%, 3.2%, but in that range, not in the 3.8% that we've seen historically. So that's kind of on CapEx. It's not odd because, frankly, most of the digital investments that we do, we run through our P&L. So we don't amortize any of the software development and all those costs. So in that sense, we do have a bit of conservative accounting. So there may be some impact on the operational margins, but we have always factored for that and we optimize and find room for those investments there.
+
+In terms of free cash flow, as I mentioned, one of the biggest drivers for it being flat is because of increased interest outflow. And those had two things. One, the net debt has increased because of the PSG acquisition. And number two, we do have a small component, which is a variable component in our debt payments and that has increased with the rising interest rates. So that has been the big driver. We also have some advanced tax payments mainly in the U.S., which will obviously unwind in the second half. So the second half free cash flow performance, you should expect it to be better than the H1. Then to the content moderation, it continues to grow, not at the 30%, 40% range, but healthy and almost double of the average growth rate that I just mentioned.
+
+Operator
+
+We will take our next question from Nicole Manion from UBS.
+
+Nicole Manion
+
+The first one is just if you could remind us the time you downgraded the guidance at Q1. I think one of the things you are flagging there is that the client decision-making had been lower in Q1, but then it had improved in April. You said you were keen not to extrapolate that for the rest of the year. But I just want to get a sense of what has happened sort of since then. Are we now kind of back at that level? Or are things getting worse and progressively worse from what you saw in kind of Q1? And is the bottom end of the guidance sort of now genuinely conservative with a view to what might happen with client decision-making? That's the first question.
+
+And just the second question, I think you sort of touched on it already, but if I could just follow up. If we think about content moderation as one of kind of the being the digital type services in the tech space that you have, could you give us a sense then if that is still growing at sort of 2x of what the current growth rate is in that digital tech segment ex content moderation, at least sort of roughly kind of how negative that is?
+
+Bhupender Singh
+
+Yes, sure. So Nicole, yes, you are right. We had seen slowdown in decision-making during the late February, March, early April time frame and that had opened up. But that's why I find this year to be very difficult to forecast because if you look at the -- what's happening in the market, every month, the wage inflation report comes out or the unemployment report comes out and the market pundits and experts have their different commentary to it.
+
+So because of that, the clients also are to somewhat confused. So some of the -- so there has been a stop-start, and we are seeing that behavior even today. No one is certain what's going to happen tomorrow. And because of that, some of the big decisions continue to get dragged out. So unfortunately, I don't have a black and white answer on that.
+
+Having said that, the relative impact of that on this year's revenue is not that huge now because most of the new logos we normally get by August 10. Now the impact in H2 is more of -- we've got all these contracts with that, but there is always a volume variation. It may be at 100% levels, it could be at 110% levels or it could be at 85% levels. And that, to some extent, no one knows, even our clients don't know at this stage.
+
+So it's a bit difficult to give a very black and white guidance this year and also the associated confidence with it. On content moderation and broader digital services, as I mentioned, it continues to grow at 2x of our average growth rate.
+
+Nicole Manion
+
+Sorry, just a follow-up on that second question. What I was sort of asking there is what kind of growth does that imply for sort of the digital service portfolio, sort of excluding content moderation, if you can indicate that at all, kind of how negative is that other part of the business that's sort of digital, but not content moderation.
+
+Bhupender Singh
+
+Yes. So Nicole, there's no standard definition of digital services as such. Different people have different definitions and in case of Teleperformance, we have always said that, to some extent, digital is used more as a capability to help us sell more of our core business and to deliver better.
+
+To some extent, digital services as a stand-alone business, it has become more as an afterthought. But now we are pursuing that and that is growing at a fairly healthy rate, but it's coming also from a very, very low base. So frankly, at that level, percentages don't matter.
+
+Operator
+
+[Operator Instructions] We will take our next question from Oscar Val Mas from JPMorgan.
+
+Oscar Val Mas
+
+Bhupender, three questions. The first one, going back to the organic guidance. In the previous call, you talked about winning two new customers or two large contracts. Are those still on track to ramp up in the second half?
+
+The second question, again on, I guess, the full year margin guidance, you sound more confident on the 50 basis points of margin expansion for the full year. The Core Services margin was flat in H1. It is only up 10 basis points. Do you expect Core Services to see margin expansion in the second half? Or is it just a product of mix? So Specialized Services growing faster than Core.
+
+And then the final question, it's a bit more on the industry. So one of your competitors in the U.S. a few weeks ago talked about a pricing environment that was very difficult. Is that something you're seeing as well in terms of competitive dynamics?
+
+Bhupender Singh
+
+Yes, Oscar. So we touched upon two large contracts. One of those is ramping up very well. The second one, we have seen some delays, but the bigger of the two is actually ramping up very well.
+
+Margin expansion, yes, you should expect margin expansion in H2 for the core and D.I.B.S. business, and that is one of the drivers of the 50 basis points, and we are more confident on that than the top line.
+
+Pricing, as such, look, Teleperformance has never been the lowest-price player. So in that sense, we don't compete on price. So we're not seeing as such a significant pricing pressure. But what we are seeing is what I mentioned earlier, clients preferring offshore, nearshore locations to onshore locations. So that has that impact on the top line.
+
+Operator
+
+[Operator Instructions] We'll take our next question from Suhasini Varanasi from Goldman Sachs.
+
+Suhasini Varanasi
+
+So a question on the revenue guide actually for the year. You mentioned that volume variation is likely to be key for the second half growth and there is uncertainty on the volume variation. Can you please talk about the observations behind the 6% to 8% revenue guidance? Because I think that will hopefully help us understand, okay, what is your assumptions there underpinning it? And what are the risks, I suppose, for the rest of the year?
+
+Bhupender Singh
+
+Yes. So Suhasini, what I can tell you is that the last few weeks, we have spent a lot of time going account by account and trying to scrub what is expected and discussing with our clients, what is the expected volume. So we have gone through a fair level of detail on that and that's how this number has been derived. The only issue is that we don't know what we don't know. And unfortunately, in this case, even our clients don't know what they don't know. That's the only risk that none of us are aware of, and we can't factor that in. But otherwise, we have done what we normally do, which is go bottom up. And in this case, we have done multiple iterations of that to be able to come to the guidance that we've given.
+
+Operator
+
+There are no further questions on the line, sir. Please proceed with your closing remarks.
+
+Bhupender Singh
+
+Thank you. Thank you everyone for being on this call. As I mentioned earlier, yes, the numbers are somewhat, especially the top line is somewhat lower than what we had guided at the start of the year and also what many of you were expecting. The only thing that I will request everyone to look at is relative performance and relative to our direct competitors and relative to some of the indirect competitors.
+
+TP is still growing at the fastest rate. And number two, there are very few companies in this environment who actually are improving their profit margins. So I just hope that those two things are not lost on anyone. Thank you.

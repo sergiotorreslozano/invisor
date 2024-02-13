@@ -1,2 +1,5 @@
 # invisor
-A playground for Spring AI and Embeddings
+
+This is a playground for Spring AI and Embeddings.
+
+
