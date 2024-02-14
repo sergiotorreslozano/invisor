@@ -36,21 +36,6 @@ public class Config {
     @Value("${spring.ai.openai.api-key}")
     private String OPENAI_API_KEY;
 
-//    @Value("${app.documentResource}")
-//    private Resource resource;
-//
-//    @Value("${app.documentResourceEstimates}")
-//    private Resource resourceEstimates;
-//
-//    @Value("${app.documentResourceFinancials}")
-//    private Resource resourceFinancials;
-//
-//    @Value("${app.documentResourceOverview}")
-//    private Resource resourceOverivew;
-//
-//    @Value("${app.documentResourcePrices}")
-//    private Resource resourcePrices;
-
     @Value("${app.folder.path:classpath:tep/*}")
     private Resource[] tepResources;
 
@@ -63,7 +48,6 @@ public class Config {
         return  new OpenAiEmbeddingClient(new OpenAiApi(OPENAI_API_KEY),
                 MetadataMode.EMBED,
                 OpenAiEmbeddingOptions.builder().withModel("text-embedding-3-small").build());
-//                .withDefaultOptions(OpenAiEmbeddingOptions.builder().withModel("text-embedding-3-small").build());
     }
 
     @Bean
@@ -85,11 +69,6 @@ public class Config {
                         simpleVectorStore.add(generateSplitDocuments(res));
                     }
                     ));
-//            simpleVectorStore.add(generateSplitDocuments(resource));
-//            simpleVectorStore.add(generateSplitDocuments(resourceEstimates));
-//            simpleVectorStore.add(generateSplitDocuments(resourceFinancials));
-//            simpleVectorStore.add(generateSplitDocuments(resourceOverivew));
-//            simpleVectorStore.add(generateSplitDocuments(resourcePrices));
             simpleVectorStore.save(vectorStoreFile);
         }
         return simpleVectorStore;
