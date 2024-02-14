@@ -19,7 +19,7 @@ import org.springframework.core.io.Resource;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
+import java.util.Arrays;
 import java.util.List;
 
 @Configuration
@@ -36,20 +36,27 @@ public class Config {
     @Value("${spring.ai.openai.api-key}")
     private String OPENAI_API_KEY;
 
-    @Value("${app.documentResource}")
-    private Resource resource;
+//    @Value("${app.documentResource}")
+//    private Resource resource;
+//
+//    @Value("${app.documentResourceEstimates}")
+//    private Resource resourceEstimates;
+//
+//    @Value("${app.documentResourceFinancials}")
+//    private Resource resourceFinancials;
+//
+//    @Value("${app.documentResourceOverview}")
+//    private Resource resourceOverivew;
+//
+//    @Value("${app.documentResourcePrices}")
+//    private Resource resourcePrices;
 
-    @Value("${app.documentResourceEstimates}")
-    private Resource resourceEstimates;
+    @Value("${app.folder.path:classpath:tep/*}")
+    private Resource[] tepResources;
 
-    @Value("${app.documentResourceFinancials}")
-    private Resource resourceFinancials;
+    @Value("${app.folder.path:classpath:paypal/*}")
+    private Resource[] paypalResources;
 
-    @Value("${app.documentResourceOverview}")
-    private Resource resourceOverivew;
-
-    @Value("${app.documentResourcePrices}")
-    private Resource resourcePrices;
 
     @Bean
     public EmbeddingClient embeddingClient(){
@@ -60,27 +67,42 @@ public class Config {
     }
 
     @Bean
-    public SimpleVectorStore simpleVectorStore(EmbeddingClient embeddingClient) throws IOException, URISyntaxException {
+    public SimpleVectorStore simpleVectorStore(EmbeddingClient embeddingClient) throws IOException {
         SimpleVectorStore simpleVectorStore = new SimpleVectorStore(embeddingClient);
         File vectorStoreFile = new File (vectorStorePath);
-        resource.getFilename();
         if (vectorStoreFile.exists()){
             logger.info("vectorStoreFile exists, reusing existing " + vectorStoreFile.getAbsolutePath());
             simpleVectorStore.load(vectorStoreFile);
         }else {
 
-            simpleVectorStore.add(generateSplitDocuments(resource));
-            simpleVectorStore.add(generateSplitDocuments(resourceEstimates));
-            simpleVectorStore.add(generateSplitDocuments(resourceFinancials));
-            simpleVectorStore.add(generateSplitDocuments(resourceOverivew));
-            simpleVectorStore.add(generateSplitDocuments(resourcePrices));
+            Arrays.stream(tepResources)
+                    .forEach((res -> {
+                        simpleVectorStore.add(generateSplitDocuments(res));
+                    }
+            ));
+            Arrays.stream(paypalResources)
+                    .forEach((res -> {
+                        simpleVectorStore.add(generateSplitDocuments(res));
+                    }
+                    ));
+//            simpleVectorStore.add(generateSplitDocuments(resource));
+//            simpleVectorStore.add(generateSplitDocuments(resourceEstimates));
+//            simpleVectorStore.add(generateSplitDocuments(resourceFinancials));
+//            simpleVectorStore.add(generateSplitDocuments(resourceOverivew));
+//            simpleVectorStore.add(generateSplitDocuments(resourcePrices));
             simpleVectorStore.save(vectorStoreFile);
         }
         return simpleVectorStore;
     }
 
-    private List<Document> generateSplitDocuments(Resource resource) throws IOException {
-        logger.info("generating new vectorStoreFile from resource " + resource.getURI());
+
+
+    private List<Document> generateSplitDocuments(Resource resource)  {
+        try {
+            logger.info("Spliting documemnts from resource " + resource.getURI());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         TikaDocumentReader documentReader = new TikaDocumentReader(resource);
         List<Document> documents = documentReader.get();
         TextSplitter textSplitter = new TokenTextSplitter();
