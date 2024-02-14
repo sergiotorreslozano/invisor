@@ -12,6 +12,7 @@ import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.annotation.MergedAnnotations;
 import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -40,7 +41,9 @@ public class AskController {
 
     @GetMapping("/ask")
     public Answer ask(@RequestParam("question") String question){
-        List<Document> documents = vectorStore.similaritySearch(SearchRequest.query(question).withTopK(2));
+
+        SearchRequest searchRequest =  SearchRequest.query(question).withTopK(2);
+        List<Document> documents = vectorStore.similaritySearch(searchRequest);
         logger.info("documents size: " + String.valueOf(documents.size()));
         List<String> contentList = documents.stream().map(Document::getContent).toList();
         PromptTemplate promptTemplate = new PromptTemplate(ragPromptTemplate);
@@ -51,6 +54,9 @@ public class AskController {
         Prompt prompt = promptTemplate.create(promptParameters);
         ChatResponse response = aiClient.call(prompt);
         logger.info(response.getMetadata().getUsage().toString());
+        Answer answer = new Answer(response.getResult().getOutput().getContent());
+        logger.info(searchRequest.toString());
+        logger.info(answer.toString());
         return new Answer(response.getResult().getOutput().getContent());
     }
 
