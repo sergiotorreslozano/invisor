@@ -33,7 +33,7 @@ public class Config {
     @Value("${app.documentResource}")
     private String documentResource;
 
-    @Value("${spring.ai.openai.api-key}")
+    @Value("${spring.ai.openai.api-key:-forTesting}")
     private String OPENAI_API_KEY;
 
     @Value("${app.folder.path:classpath:tep/*}")
