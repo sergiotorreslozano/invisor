@@ -1,4 +1,4 @@
-package com.stl.invisor;
+package com.stl.invisor.dto;
 
-record Answer(String answer) {
+public record Answer(String answer) {
 }
