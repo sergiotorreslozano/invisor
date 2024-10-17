@@ -1,4 +1,11 @@
 spring:
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
+  h2:
+    console.enabled: true
   datasource:
     url: jdbc:h2:file:./data/demo
     username: sa
@@ -12,6 +19,7 @@ spring:
     show-sql: ${SHOW_SQL_QUERY:false}
 
 app:
+  documentRoot: /Users/sergiotorreslozano/work/personal/invisor/data/documentation
   tepResources: classpath:tep/*
   paypalResources: classpath:paypal/*
-  vectorstore: /tmp/vectorstore.json
+  vectorstore: /Users/sergiotorreslozano/work/personal/invisor/data/vectorstore.json
