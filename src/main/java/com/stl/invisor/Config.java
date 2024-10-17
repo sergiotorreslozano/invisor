@@ -40,43 +40,4 @@ public class Config {
                 OpenAiEmbeddingOptions.builder().withModel("text-embedding-3-small").build());
     }
 
-//    @Bean
-//    public SimpleVectorStore simpleVectorStore(EmbeddingClient embeddingClient) throws IOException {
-//        SimpleVectorStore simpleVectorStore = new SimpleVectorStore(embeddingClient);
-//        File vectorStoreFile = new File (vectorStorePath);
-//        if (vectorStoreFile.exists()){
-//            logger.info("vectorStoreFile exists, reusing existing " + vectorStoreFile.getAbsolutePath());
-//            simpleVectorStore.load(vectorStoreFile);
-//        }else {
-//
-//            Arrays.stream(tepResources)
-//                    .forEach((res -> {
-//                        simpleVectorStore.add(generateSplitDocuments(res));
-//                    }
-//            ));
-//            Arrays.stream(paypalResources)
-//                    .forEach((res -> {
-//                        simpleVectorStore.add(generateSplitDocuments(res));
-//                    }
-//                    ));
-//            simpleVectorStore.save(vectorStoreFile);
-//        }
-//        return simpleVectorStore;
-//    }
-//
-//
-//
-//    private List<Document> generateSplitDocuments(Resource resource)  {
-//        try {
-//            logger.info("Spliting documemnts from resource " + resource.getURI());
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//        TikaDocumentReader documentReader = new TikaDocumentReader(resource);
-//        List<Document> documents = documentReader.get();
-//        TextSplitter textSplitter = new TokenTextSplitter();
-//        List<Document> splitDocuments = textSplitter.apply(documents);
-//        return splitDocuments;
-//    }
-
 }

@@ -42,7 +42,7 @@ public class AskController {
     @GetMapping("/ask")
     public Answer ask(@RequestParam("question") String question){
 
-        SearchRequest searchRequest =  SearchRequest.query(question).withTopK(2);
+        SearchRequest searchRequest =  SearchRequest.query(question).withTopK(6);
         List<Document> documents = vectorStoreService.similaritySearch(searchRequest);
         logger.info("documents size: " + String.valueOf(documents.size()));
         List<String> contentList = documents.stream().map(Document::getContent).toList();

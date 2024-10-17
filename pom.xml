@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<SPRING_AI_VERSION>0.8.0-SNAPSHOT</SPRING_AI_VERSION>
+		<APACHE_HTTP_CLIENT>5.3.1</APACHE_HTTP_CLIENT>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -56,8 +57,16 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<!--			<scope>runtime</scope>-->
 		</dependency>
+
+		<!-- Needed for the HttpClient and to manage the connection pool with Open AI -->
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5 -->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.httpcomponents.client5</groupId>-->
+<!--			<artifactId>httpclient5</artifactId>-->
+<!--			<version>${APACHE_HTTP_CLIENT}</version>-->
+<!--		</dependency>-->
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
