@@ -34,7 +34,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(IOException.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ResponseEntity<String> handleIOException(IOException ex) {
-        return new ResponseEntity<>("Internal error occurred while processing the image.", HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>("Internal error occurred while processing the request.", HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
 }
