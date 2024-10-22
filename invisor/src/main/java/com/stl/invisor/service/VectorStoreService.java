@@ -38,7 +38,7 @@ public class VectorStoreService {
 
     private SimpleVectorStore simpleVectorStore;
 
-    private static final UUID uuid = UUID.fromString("01927a27-ef2e-7cc1-9ac3-641b9f0bd38b");
+    private static final UUID uuid = UUID.fromString("cd0543c0-c619-4aa4-8eb6-e1e721a4cc6a");
     @Value("${app.documentRoot:-/tmp/data/documentation}")
     private String documentRootPath;
 

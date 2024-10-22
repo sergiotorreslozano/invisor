@@ -27,7 +27,7 @@ public class DataDocumentController {
         this.vectorStoreService = vectorStoreService;
     }
 
-    @GetMapping("/documents")
+    @GetMapping("/api/documents")
     public List<DataDocumentDto> findDocuments(){
         List<DataDocument> dataDocuments = dataDocumentRepository.findAll();
         // Convert the List<DataDocument> to List<DataDocumentDto>
@@ -35,7 +35,7 @@ public class DataDocumentController {
                 .map(DataDocumentDto::new)  // Map each DataDocument entity to a DataDocumentDto
                 .collect(Collectors.toList());
     }
-    @GetMapping("/documents/{folder}")
+    @GetMapping("/api/documents/{folder}")
     public List<DataDocumentDto> findDocumentsByFolder(@PathVariable  String folder){
         List<DataDocument> dataDocuments = dataDocumentRepository.findDataDocumentsByFolderWithParts(folder);
 
@@ -45,7 +45,7 @@ public class DataDocumentController {
                 .collect(Collectors.toList());
     }
 
-    @PostMapping("/documents/{folder}/reload")
+    @PostMapping("/api/documents/{folder}/reload")
     public ResponseEntity<String> reloadDocumentsFolder(@PathVariable String folder) throws IOException {
 
         vectorStoreService.reloadDocuments(folder);
