@@ -15,5 +15,8 @@ public interface QuestionRepository extends JpaRepository<Question, UUID> {
     @Query("SELECT q FROM Question q WHERE q.user.uuid = :userUuid")
     List<Question> findQuestionsByUserUuid(@Param("userUuid") UUID userUuid);
 
+    // Custom query to find questions by User UUID and Folder
+    @Query("SELECT q FROM Question q WHERE q.user.uuid = :userUuid AND q.folder = :folder")
+    List<Question> findQuestionsByUserUuidAndFolder(@Param("userUuid") UUID userUuid, @Param("folder") String folder);
 
 }

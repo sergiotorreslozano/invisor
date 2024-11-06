@@ -44,8 +44,21 @@ public class UserController {
 
     @GetMapping("/api/users/{userId}/questions")
     public ResponseEntity<List<QuestionDto>> findUserQuestions(@PathVariable String userId){
-        logger.info("Returning questions for user: " + userId);
+        logger.info("Returning questions for user: {}", userId);
         List<Question> questions = questionRepository.findQuestionsByUserUuid(UUID.fromString(userId));
+
+        // Map the list of Question entities to QuestionDto using the constructor
+        List<QuestionDto> questionsDto = questions.stream()
+                .map(QuestionDto::new)  // Directly map using the new constructor
+                .collect(Collectors.toList());
+
+        return ResponseEntity.ok(questionsDto);
+    }
+
+    @GetMapping("/api/users/{userId}/folders/{folder}/questions")
+    public ResponseEntity<List<QuestionDto>> findUserQuestionsByFolder(@PathVariable String userId, @PathVariable String folder){
+        logger.info("Returning questions for user: {} and folder: {} ", userId, folder);
+        List<Question> questions = questionRepository.findQuestionsByUserUuidAndFolder(UUID.fromString(userId), folder);
 
         // Map the list of Question entities to QuestionDto using the constructor
         List<QuestionDto> questionsDto = questions.stream()

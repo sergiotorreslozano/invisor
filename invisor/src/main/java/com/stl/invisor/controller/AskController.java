@@ -57,6 +57,7 @@ public class AskController {
     }
 
     @GetMapping("/ask")
+    @Deprecated
     public Answer ask(@RequestParam("question") String question){
 
         Prompt prompt = createPrompt(question);
