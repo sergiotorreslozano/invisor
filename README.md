@@ -46,22 +46,38 @@ Before you start, ensure you have the following:
 - **Java 17+**: The application is built using Java 17 or higher. Please make sure you have the correct Java version installed.
 - **OpenAI API Key**: This project integrates with OpenAI and requires an API key. You can obtain an API key by signing up at [OpenAI's official site](https://beta.openai.com/signup/).
 - **Maven**: The project uses Maven for dependency management and running the application.
+- **Node.js and npm**: Required for running and managing the frontend.
+
 
 
 ## Getting started
 - Clone the Repository
 ```code
 git clone https://github.com/sergiotorreslozano/my-invisor.git
-cd my-invisor
+cd my-invisor/invisor
 ```
-- Install Dependencies
+- Install Java Dependencies
 ```code
 mvn clean install
 ```
+- Install Web Dependencies
+```code
+npm install
+```
 ## Running the Project
+Running the Backend
 ```code
 mvn spring-boot:run
 ```
+Running the frontend
+```code
+npm start
+```
+The frontend will be deployed here:
+
+[http://localhost:3000](http://localhost:3000)
+
+
 ## API Endpoints
 - List all users
 ```code
